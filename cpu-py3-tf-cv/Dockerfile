@@ -83,4 +83,6 @@ RUN pip --no-cache-dir install \
 RUN pip install tensorflow
 # --- ~ DO NOT EDIT OR DELETE BETWEEN THE LINES --- #
 
+RUN pip install opencv-contrib-python==4.1.0.25
+
 WORKDIR "/root"
